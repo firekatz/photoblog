@@ -1,0 +1,3 @@
+# **Awesomeness-DIY photoblog**
+This is a new project I am looking to work on where I will document different home improvement projects that can be done around the house that will help organize your day and make your household run more efficiently! Every Mom has experienced those days when you are trying to get everything done and by the end of the day the pile of laundry still is still int he washer, dishes are everywhere and the dog just peed on the kid. The idea is that I will share various types of simple organization tactics or improvments to the home to make those days go by much easier.
+
