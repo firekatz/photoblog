@@ -1,13 +1,95 @@
 <html>
-	<head style="background-color:Black;">
+	<head>
 	<title>DIY Home Ideas</title>
 		<meta name="photoblog" />
 		<meta name="photo" />
 		<meta name="blog" />
 		<meta name="diy" />
+	<style type="text/css">
+	/* body color and font */
+	body {
+		font-family: Arial, sans-serif;
+		margin: 0;
+	}
+	/* navigation menu */
+	.navbar {
+		overflow: hidden;
+		background-color: black;
+	}
+	/* navigation links */
+	.navbar a {
+		float: left;
+		font-size: 16px;
+		color: white;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+	}
+	/* subnavigation menu */
+	.subnav {
+		float: left;
+		overflow: hidden;
+	}
+	/* subnavigation button */
+	.subnav .subnavbtn {
+		font-size: 16px;
+		border: none;
+		outline: none;
+		color: white;
+		padding: 14px 16px;
+		background-color: inherit;
+		font-family: inherit;
+		margin: 0;
+	}
+	/* add a background color to the navigation links on hover */
+	a:hover, .subnav:hover, .subnavbtn:hover {
+		background-color: steelblue;
+	}
+	/* style the subnavigation content and position */
+	.subnav-content {
+		display: none;
+		position: absolute;
+		left: 0;
+		background-color: steelblue;
+		width: 100%;
+		z-index: 1;
+	}
+	/* style the subnavigation links */
+	.subnav-content a{
+		float: left;
+		color: white;
+		text-decoration: none;
+	}
+	/* add a white background on hover */
+	.subnav-content a:hover {
+		background-color: whitesmoke;
+		color: steelblue;
+	}
+	/* mouseover the subnavigation container, open the content */
+	.subnav:hover .subnav-content {
+		display: block;
+	}
+	</style>
 	</head>
 	<body>
-		<h1 align=center style="background-color:DodgerBlue;color:#FFFFFF"><i><b>DIY Home Organization Tips</b></i></h1>
-		<p style="border:2px solid Violet;color:#FFFFFF">This is my first photo-blog and this is a test of the paragraphs.</p>
-	<body>
+	<div class="navbar">
+		<a href="#home">Home</a>
+		<div class="subnav">
+			<button class="subnavbtn">About <i class="fa-caret-down"></i></button>
+			<div class="subnav-content">
+				<a href="#about">About Me</a>
+			</div>
+		</div>
+		<div class="subnav">
+			<button class="subnavbtn">Subjects <i class="fa-caret-down"></i></button>
+			<div class="subnav-content">
+				<a href="#homeimprov">Home Improvement</a>
+			</div>
+		</div>
+		<a href="#contact">Contact</a>
+	</div>
+		<h1 align=center style="background-color:dodgerblue;color:#FFFFFF"><i><b>DIY Home Organization Tips</b></i></h1>
+		<p style="border:2px solid violet;color:#FFFFFF">This is my first photo-blog and this is a test of the paragraphs.</p>
+	
+	</body>
 </html>
